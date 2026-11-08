@@ -1,0 +1,9 @@
+{
+  "name": "hermes-first-screen",
+  "private": true,
+  "version": "1.0.0",
+  "description": "First desktop screen from Figma with a video-timed flicker reveal.",
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}

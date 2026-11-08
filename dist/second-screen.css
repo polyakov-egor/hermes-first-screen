@@ -1,0 +1,14 @@
+#second-screen-content .second-title{position:absolute;left:20px;top:508px;width:616px;margin:0;font-family:Benzin,Arial,sans-serif;font-weight:700;font-size:64px;line-height:1;text-transform:uppercase;overflow-wrap:break-word;color:#f1f1f1}
+#second-screen-content .second-title-cursor{position:absolute;left:264px;top:635px;width:72px;height:48px;background:transparent}
+#second-screen-content .second-description{position:absolute;left:20px;top:753px;width:300px;margin:0;font-family:Suisse,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.2;white-space:pre-wrap;overflow-wrap:break-word;color:rgba(241,241,241,.8)}
+#second-screen-content .second-chapter{position:absolute;top:236px;margin:0;font-family:Suisse,Arial,sans-serif;font-weight:300;font-size:14px;line-height:.84;letter-spacing:-.7px;white-space:nowrap;color:rgba(241,241,241,.5)}
+#second-screen-content .second-chapter{left:20px}
+#second-screen-content .second-callout{position:absolute;display:flex;align-items:center;gap:16px}
+#second-screen-content .second-callout-matte{left:1223px;top:271px}
+#second-screen-content .second-callout-chrome{left:920px;top:571px}
+#second-screen-content .second-callout-target{position:relative;flex-shrink:0;width:64px;height:64px}
+#second-screen-content .second-callout-target img{display:block}
+#second-screen-content .second-callout-pill{display:flex;align-items:center;justify-content:center;flex-shrink:0;padding:10px;border-radius:60px;background:rgba(255,255,255,.1);backdrop-filter:blur(32px)}
+#second-screen-content .second-callout-pill p{margin:0;font-family:Suisse,Arial,sans-serif;font-weight:300;line-height:1.2;white-space:nowrap;text-align:center;color:#f1f1f1;opacity:.7}
+#second-screen-content .second-callout-matte .second-callout-pill p{font-size:16px}
+#second-screen-content .second-callout-chrome .second-callout-pill p{font-size:14px}

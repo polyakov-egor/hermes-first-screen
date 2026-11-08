@@ -1,0 +1,14 @@
+/* The original heading reserves every line; JS reveals the original pixels. */
+.screen-content.is-revealed [data-type-title],
+.screen-content.is-exiting [data-type-title],
+.screen-content.is-revealed [data-type-cursor],
+.screen-content.is-exiting [data-type-cursor]{animation:none;opacity:1;visibility:visible}
+.screen-content [data-type-cursor]{background:transparent}
+.screen-content.is-revealed [data-type-cursor][data-type-visible="false"],
+.screen-content.is-exiting [data-type-cursor][data-type-visible="false"]{visibility:hidden}
+/* The 1 s / 500 ms on-off rhythm stays active during backward erasure too. */
+.screen-content.is-revealed [data-type-cursor] .title-cursor-blink{animation:text-cursor-blink 1s steps(1,end) var(--type-cursor-delay,300ms) infinite}
+html[data-state="review"] .screen-content.is-revealed [data-type-cursor] .title-cursor-blink{animation:none;opacity:1}
+@media(prefers-reduced-motion:reduce){
+  .screen-content.is-revealed [data-type-cursor] .title-cursor-blink{animation:none;opacity:1}
+}

@@ -1,0 +1,22 @@
+.feature-screen .feature-title{position:absolute;left:20px;width:616px;margin:0;padding:0;font-family:Benzin,Arial,sans-serif;font-weight:700;font-size:64px;line-height:1;text-transform:uppercase;overflow-wrap:break-word;color:#f1f1f1}
+.feature-screen .feature-title>span{display:block;white-space:pre-wrap}
+#third-screen-content .feature-title{top:386px}
+#fourth-screen-content .feature-title{top:614px}
+.feature-screen .feature-title-cursor{position:absolute;width:72px;height:48px;background:transparent}
+#third-screen-content .feature-title-cursor{left:478px;top:513px}
+#fourth-screen-content .feature-title-cursor{left:219px;top:741px}
+.feature-screen .feature-description{position:absolute;left:20px;margin:0;font-family:Suisse,Arial,sans-serif;font-weight:300;font-size:14px;line-height:0;color:rgba(241,241,241,.8)}
+.feature-screen .feature-description>p{margin:0;padding:0;line-height:1.2;white-space:pre-wrap;overflow-wrap:break-word}
+#third-screen-content .feature-description{top:631px;width:264px}
+#fourth-screen-content .feature-description{top:859px;width:324px}
+.feature-screen .feature-chapter{position:absolute;top:236px;margin:0;font-family:Suisse,Arial,sans-serif;font-weight:300;font-size:14px;line-height:.84;letter-spacing:-.7px;white-space:nowrap;color:rgba(241,241,241,.5)}
+.feature-screen .feature-chapter{left:20px}
+.feature-screen .feature-callout{position:absolute;display:flex;align-items:center;gap:16px}
+#third-screen-content .third-callout-chin{left:802px;top:733px}
+#third-screen-content .third-callout-liquid{left:1348px;top:428px}
+#fourth-screen-content .fourth-callout-visor{left:1137px;top:455px}
+#fourth-screen-content .fourth-callout-lens{left:853px;top:752px}
+.feature-screen .feature-callout-target{position:relative;flex-shrink:0;width:64px;height:64px}
+.feature-screen .feature-callout-target img{display:block}
+.feature-screen .feature-callout-pill{display:flex;align-items:center;justify-content:center;flex-shrink:0;padding:10px;border-radius:60px;background:rgba(255,255,255,.1);backdrop-filter:blur(32px)}
+.feature-screen .feature-callout-pill p{margin:0;font-family:Suisse,Arial,sans-serif;font-weight:300;font-size:14px;line-height:1.2;white-space:nowrap;text-align:center;color:#f1f1f1;opacity:.7}

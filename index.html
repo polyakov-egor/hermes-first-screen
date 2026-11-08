@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en" data-state="loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Hermes — a full-face black helmet wrapped in chrome thorns.">
+  <title>HM — Hermes</title>
+  <link rel="preload" href="assets/Benzin-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/SuisseIntl-Light.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=16">
+  <link rel="stylesheet" href="second-screen.css">
+  <link rel="stylesheet" href="feature-screens.css">
+  <link rel="stylesheet" href="fifth-screen.css?v=15">
+  <link rel="stylesheet" href="text-type.css?v=14">
+  <link rel="stylesheet" href="callout-motion.css?v=18">
+  <link rel="stylesheet" href="pink-hint.css?v=22">
+  <script src="layout.js" defer></script>
+  <script src="text-type.js?v=14" defer></script>
+  <script src="published-preset.js?v=21" defer></script>
+  <script src="video-settings-state.js?v=21" defer></script>
+  <script src="first-cue-smoothing.js?v=20" defer></script>
+  <script src="pink-hint.js?v=23" defer></script>
+  <script src="intro.js?v=22" defer></script>
+</head>
+<body>
+  <main class="viewport" aria-label="Hermes collection">
+    <section class="scene" id="first-screen" aria-label="Hermes helmet">
+      <div class="scene-media" aria-hidden="true">
+        <video id="intro-video" class="scene-video is-active" src="assets/helmet-sequence.mp4" poster="assets/helmet-poster.png" muted playsinline preload="none"></video>
+        <video id="reverse-video" class="scene-video" src="assets/helmet-return.mp4" poster="assets/screen-2-poster.png" muted playsinline preload="none"></video>
+        <video id="walk-loop-video" class="scene-video" src="assets/helmet-walk-loop.mp4" poster="assets/walking-loop-poster.png" muted playsinline loop preload="none"></video>
+        <video id="pink-walk-loop-video" class="scene-video" src="assets/helmet-pink-walk-loop.mp4" poster="assets/pink-walking-loop-poster.png" muted playsinline loop preload="none"></video>
+      </div>
+      <img class="scene-pattern" src="assets/pattern.png" alt="" aria-hidden="true" data-node-id="336:159">
+      <img class="top-shade" src="assets/top-shade.png" alt="" aria-hidden="true" data-node-id="336:161">
+
+        <header id="site-header" class="navigation shared-header" aria-label="HM navigation" inert aria-hidden="true">
+          <button id="restart-flow" class="wordmark blend" type="button" aria-label="Restart Hermes presentation" data-reveal data-reveal-group="header" data-node-id="336:227"><span>HM</span><sup>TM</sup></button>
+
+          <div class="nav-about blend" data-reveal data-reveal-group="header" data-node-id="336:217">
+            <p>About</p>
+            <div class="about-detail"><p>Russia</p><div class="coordinates"><p>52.2978° N</p><p>104,296° E</p></div></div>
+          </div>
+
+          <nav class="nav-catalog blend" aria-label="Catalog" data-reveal data-reveal-group="header" data-node-id="336:204">
+            <p>Catalog</p>
+            <ul class="catalog-list muted"><li class="indent-one">Helmets</li><li class="indent-two">Visors</li><li class="indent-one">Outerwear</li><li>Chains</li><li>Accessories</li></ul>
+          </nav>
+
+          <nav class="nav-drops" aria-label="Drops" data-reveal data-reveal-group="header" data-node-id="336:181">
+            <p class="blend">Drops</p>
+            <ul class="drops-list"><li class="indent-one muted">Terminal (new)</li><li class="indent-two muted">Vandal (new)</li><li class="indent-two muted">Scandal</li><li class="drops-spacer" aria-hidden="true"></li><li><span class="pill sale">sale</span></li></ul>
+          </nav>
+
+          <div class="nav-account" data-reveal data-reveal-group="header" data-node-id="336:196">
+            <p class="bag">Bag <span class="bag-count">0</span></p>
+            <p class="account muted">Account</p><p class="contacts muted">Contacts</p>
+          </div>
+        </header>
+
+      <div id="screen-content" class="screen-content" data-screen="1" hidden inert aria-hidden="true">
+        <p class="chapter trimmed" data-reveal data-reveal-group="details" data-node-id="336:179">01/</p>
+        <p class="about-caption trimmed" data-reveal data-reveal-group="details" data-node-id="336:178">( adout drop )</p>
+        <p class="screen-caption trimmed" data-reveal data-reveal-group="details" data-node-id="336:180">( it's on the screen )</p>
+
+        <p class="description blend" data-reveal data-reveal-group="details" data-node-id="336:235">Hermes is the new drop: a full-face black helmet wrapped in chrome thorns. Part armour,                      part sculpture, made to be seen up close</p>
+        <img class="detail-arrow" src="assets/arrow-detail.svg" alt="" aria-hidden="true" data-reveal data-reveal-group="details" data-node-id="336:176">
+
+        <p class="designer trimmed blend" data-reveal data-reveal-group="title" data-node-id="336:234">BY GIVENCHY</p>
+        <div class="hero-wordmark blend" data-reveal data-reveal-group="title" data-node-id="336:230"><h1 class="trimmed">HERMES</h1><sup class="trimmed">TM</sup></div>
+
+        <aside class="drop-card" aria-label="New drop: Helmet Hermes Thorn 2" data-reveal data-reveal-group="card" data-node-id="336:166">
+          <div class="drop-info"><span class="pill new-drop">new drop</span><img class="card-arrow" src="assets/arrow-card.svg" alt="" aria-hidden="true"><p class="drop-name blend">Helmet Hermes<br>Thorn 2</p></div>
+          <div class="drop-image" data-node-id="336:173"><img src="assets/drop-helmet-crop.png" alt="Hermes Thorn 2 helmet with a white jacket" data-node-id="336:174"><i class="corner corner-left" aria-hidden="true"></i><i class="corner corner-right" aria-hidden="true"></i></div>
+        </aside>
+      </div>
+
+      <p id="feature-about-caption" class="shared-feature-caption" data-reveal data-reveal-group="details" data-node-id="399:2122" hidden inert aria-hidden="true">( adout drop )</p>
+
+      <div id="second-screen-content" class="screen-content" data-screen="2" hidden inert aria-hidden="true" data-node-id="399:2119">
+        <p class="second-chapter" data-reveal data-reveal-group="details" data-node-id="399:2123">0/01</p>
+        <h2 class="second-title trimmed blend" data-type-title data-reveal data-reveal-group="title" data-node-id="399:2178">Character with an edge</h2>
+        <div class="second-title-cursor" data-type-cursor aria-hidden="true" data-reveal data-reveal-group="title" data-node-id="405:2920"><span class="title-cursor-blink"></span></div>
+        <p class="second-description blend" data-reveal data-reveal-group="details" data-node-id="399:2179">     Chrome thorns wrap the matte shell like armour grown from within.                                  Every sharp tip is deliberate: a line between protection and provocation</p>
+        <aside class="second-callout second-callout-matte" aria-label="Matte black shell" data-angle-tag data-reveal data-reveal-group="callouts" data-node-id="399:2181">
+          <div class="second-callout-target" data-node-id="399:2182"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-1)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-1" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+          <div class="second-callout-pill" data-node-id="399:2184"><p class="trimmed" data-node-id="399:2185">Matte black shell</p></div>
+        </aside>
+        <aside class="second-callout second-callout-chrome" aria-label="Chrome thorns" data-angle-tag data-reveal data-reveal-group="callouts" data-node-id="399:2186">
+          <div class="second-callout-pill" data-node-id="399:2187"><p class="trimmed" data-node-id="399:2188">Chrome thorns</p></div>
+          <div class="second-callout-target" data-node-id="399:2189"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-2)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-2" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+        </aside>
+      </div>
+      <div id="third-screen-content" class="screen-content feature-screen" data-screen="3" hidden inert aria-hidden="true" data-node-id="401:2409">
+        <p class="feature-chapter" data-reveal data-reveal-group="details" data-node-id="401:2469">0/02</p>
+        <h2 class="feature-title trimmed blend" data-type-title data-reveal data-reveal-group="title" data-node-id="401:2467"><span>Light reveals </span><span>the form</span></h2>
+        <div class="feature-title-cursor" data-type-cursor aria-hidden="true" data-reveal data-reveal-group="title" data-node-id="405:2922"><span class="title-cursor-blink"></span></div>
+        <div class="feature-description blend" data-reveal data-reveal-group="details" data-node-id="401:2468"><p>The silver surface catches the light, tracing every curve. Each change in angle   </p><p>              reveals another side of the design</p></div>
+        <aside class="feature-callout third-callout-chin" aria-label="Sculpted chin guard" data-angle-tag data-reveal data-reveal-group="callouts" data-node-id="401:2471">
+          <div class="feature-callout-pill" data-node-id="401:2472"><p class="trimmed" data-node-id="401:2473">Sculpted chin guard</p></div>
+          <div class="feature-callout-target" data-node-id="401:2474"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-3)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-3" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+        </aside>
+        <aside class="feature-callout third-callout-liquid" aria-label="Liquid chrome" data-angle-tag data-reveal data-reveal-group="callouts" data-node-id="401:2476">
+          <div class="feature-callout-target" data-node-id="401:2477"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-4)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-4" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+          <div class="feature-callout-pill" data-node-id="401:2479"><p class="trimmed" data-node-id="401:2480">Liquid chrome</p></div>
+        </aside>
+      </div>
+
+      <div id="fourth-screen-content" class="screen-content feature-screen" data-screen="4" hidden inert aria-hidden="true" data-node-id="402:2716">
+        <p class="feature-chapter" data-reveal data-reveal-group="details" data-node-id="402:2779">0/03</p>
+        <h2 class="feature-title trimmed blend" data-type-title data-reveal data-reveal-group="title" data-node-id="402:2776">A look that stays with you</h2>
+        <div class="feature-title-cursor" data-type-cursor aria-hidden="true" data-reveal data-reveal-group="title" data-node-id="405:2924"><span class="title-cursor-blink"></span></div>
+        <div class="feature-description blend" data-reveal data-reveal-group="details" data-node-id="402:2777"><p>The blacked-out visor hides the eyes and keeps </p><p>              the mystery. Chrome thorns frame it: the last </p><p>     thing they see, the first thing they remember</p></div>
+        <aside class="feature-callout fourth-callout-visor" aria-label="Blacked-out visor" data-angle-tag data-reveal data-reveal-group="callouts" data-node-id="402:2780">
+          <div class="feature-callout-target" data-node-id="402:2781"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-5)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-5" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+          <div class="feature-callout-pill" data-node-id="402:2783"><p class="trimmed" data-node-id="402:2784">Blacked-out visor</p></div>
+        </aside>
+        <aside class="feature-callout fourth-callout-lens" aria-label="Impact-resistant lens" data-angle-tag data-reveal data-reveal-group="callouts" data-node-id="402:2785">
+          <div class="feature-callout-pill" data-node-id="402:2786"><p class="trimmed" data-node-id="402:2787">Impact-resistant lens</p></div>
+          <div class="feature-callout-target" data-node-id="402:2788"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-6)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-6" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+        </aside>
+      </div>
+      <div id="fifth-screen-content" class="screen-content fifth-screen colour-screen" data-screen="5" hidden inert aria-hidden="true" data-node-id="354:1002">
+        <h2 class="fifth-title trimmed blend" data-type-title data-reveal data-reveal-group="title" data-node-id="354:1058">Colour sets the tone</h2>
+        <div class="fifth-title-cursor" data-type-cursor aria-hidden="true" data-reveal data-reveal-group="title" data-node-id="405:2926"><span class="title-cursor-blink"></span></div>
+        <p class="fifth-colors-caption" data-reveal data-reveal-group="details" data-node-id="354:1112">( colors )</p>
+        <div class="fifth-description" data-reveal data-reveal-group="details" data-node-id="354:1063"><p>Choose your helmet colour and see the look transform.                A dark base heightens the </p><p>       contrast with the silver detailing, </p><p>while a lighter shade brings out its contours</p></div>
+        <aside class="fifth-callout" aria-label="Maximum contrast with black" data-walk-tag data-color-tag data-reveal data-reveal-group="callouts" data-node-id="399:2101">
+          <div class="fifth-callout-target" data-node-id="399:2102"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-7)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-7" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+          <div class="fifth-callout-pill" data-node-id="399:2104"><p class="trimmed" data-node-id="399:2105">Maximum contrast with black</p></div>
+        </aside>
+        <div class="fifth-detail-arrow" aria-hidden="true" data-reveal data-reveal-group="callouts" data-node-id="354:1064"><img src="assets/fifth-arrow-detail.svg" width="12" height="11" alt=""></div>
+        <div class="fifth-colors" aria-label="Helmet colours: Black selected, Pink, White, Yellow" data-reveal data-reveal-group="callouts" data-node-id="354:1113">
+          <div class="fifth-color fifth-color-selected" data-node-id="354:1114"><p data-node-id="354:1115">Black</p></div>
+          <button id="select-pink" class="fifth-color" type="button" data-color="pink" aria-pressed="false" data-node-id="354:1116"><span data-node-id="354:1117">Pink</span></button>
+          <div class="fifth-color" data-node-id="354:1118"><p data-node-id="354:1119">White</p></div>
+          <div class="fifth-color" data-node-id="354:1120"><p data-node-id="354:1121">Yellow</p></div>
+        </div>
+        <div class="fifth-barcode" aria-hidden="true" data-reveal data-reveal-group="callouts" data-node-id="354:1066"><img src="assets/fifth-barcode.svg" width="240" height="44" alt=""></div>
+        <div class="fifth-footer-description blend" data-reveal data-reveal-group="callouts" data-node-id="354:1107"><p>Complete your look with matching </p><p>styles that perfectly combine style and comfort!</p></div>
+        <div class="fifth-add-to-bag" data-reveal data-reveal-group="callouts" data-node-id="354:1108">
+          <div class="fifth-bag-arrow" aria-hidden="true" data-node-id="354:1109"><img src="assets/fifth-arrow-bag.svg" width="26" height="16" alt=""></div>
+          <p data-node-id="354:1111">add to bag</p>
+        </div>
+      </div>
+      <div id="sixth-screen-content" class="screen-content colour-screen" data-screen="6" hidden inert aria-hidden="true" data-node-id="354:1250">
+        <h2 class="fifth-title trimmed blend" data-type-title data-reveal data-reveal-group="title" data-node-id="354:1306">Colour sets the tone</h2>
+        <div class="fifth-title-cursor" data-type-cursor aria-hidden="true" data-reveal data-reveal-group="title" data-node-id="405:2932"><span class="title-cursor-blink"></span></div>
+        <p class="fifth-colors-caption" data-reveal data-reveal-group="details" data-node-id="354:1360">( colors )</p>
+        <div class="fifth-description blend" data-reveal data-reveal-group="details" data-node-id="354:1311"><p>Choose your helmet colour and see the look transform.                A dark base heightens the </p><p>       contrast with the silver detailing, </p><p>while a lighter shade brings out its contours</p></div>
+        <aside class="fifth-callout" aria-label="Pink with an edge" data-color-tag data-reveal data-reveal-group="callouts" data-node-id="399:2095">
+          <div class="fifth-callout-target" data-node-id="399:2096"><svg class="callout-target-svg" aria-hidden="true" focusable="false" preserveAspectRatio="none" overflow="visible" style="display: block;" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g><rect class="callout-ring" x="0.75" y="0.75" width="63.5" height="63.5" rx="31.75" stroke="url(#callout-gradient-8)" stroke-width="1.5" stroke-dasharray="2 2"/><circle class="callout-center" cx="32.5" cy="32.5" r="4" fill="#D9D9D9"/></g><defs><linearGradient id="callout-gradient-8" x1="28.1541" y1="-44.6875" x2="-30.4929" y2="-11.5204" gradientUnits="userSpaceOnUse"><stop stop-color="white" stop-opacity="0"/><stop offset="0.119931" stop-color="white"/><stop offset="0.333724" stop-color="white" stop-opacity="0.1"/><stop offset="0.805918" stop-color="white" stop-opacity="0.4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient></defs></svg></div>
+          <div class="fifth-callout-pill" data-node-id="399:2098"><p class="trimmed" data-node-id="399:2099">Pink with an edge</p></div>
+        </aside>
+        <div class="fifth-detail-arrow" aria-hidden="true" data-reveal data-reveal-group="callouts" data-node-id="354:1312"><img src="assets/fifth-arrow-detail.svg" width="12" height="11" alt=""></div>
+        <div class="fifth-colors" aria-label="Helmet colours: Pink selected" data-reveal data-reveal-group="callouts" data-node-id="354:1361">
+          <div class="fifth-color" aria-disabled="true" data-node-id="354:1362"><p data-node-id="354:1363">Black</p></div>
+          <button id="selected-pink" class="fifth-color fifth-color-selected" type="button" data-color="pink" aria-pressed="true" disabled data-node-id="354:1364"><span data-node-id="354:1365">Pink</span></button>
+          <div class="fifth-color" aria-disabled="true" data-node-id="354:1366"><p data-node-id="354:1367">White</p></div>
+          <div class="fifth-color" aria-disabled="true" data-node-id="354:1368"><p data-node-id="354:1369">Yellow</p></div>
+        </div>
+        <div class="fifth-barcode blend" aria-hidden="true" data-reveal data-reveal-group="callouts" data-node-id="354:1314"><img src="assets/pink-barcode.svg" width="240" height="44" alt=""></div>
+        <div class="fifth-footer-description blend" data-reveal data-reveal-group="callouts" data-node-id="354:1355"><p>Complete your look with matching </p><p>styles that perfectly combine style and comfort!</p></div>
+        <div class="fifth-add-to-bag" data-reveal data-reveal-group="callouts" data-node-id="354:1356">
+          <div class="fifth-bag-arrow" aria-hidden="true" data-node-id="354:1357"><img src="assets/pink-arrow-bag.svg" width="26" height="16" alt=""></div>
+          <p data-node-id="354:1359">add to bag</p>
+        </div>
+      </div>
+      <button id="play-intro" class="play-intro" type="button" hidden>Play intro</button>
+      <span id="video-status" class="sr-only" role="status" aria-live="polite"></span>
+    </section>
+  </main>
+</body>
+</html>

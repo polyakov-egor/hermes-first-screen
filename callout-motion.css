@@ -1,0 +1,19 @@
+.callout-target-svg{display:block;overflow:visible}
+#second-screen-content .second-callout-target,
+.feature-screen .feature-callout-target,
+.colour-screen .fifth-callout-target{width:65px;height:65px}
+.callout-ring{transform-box:view-box;transform-origin:50% 50%}
+.screen-content.is-revealed.is-angle-tags-revealed [data-angle-tag] .callout-ring,
+.screen-content.is-revealed.is-walk-tag-revealed [data-walk-tag] .callout-ring,
+.screen-content.is-revealed.is-pink-tag-revealed [data-color-tag] .callout-ring{
+  animation:callout-orbit 27.826087s linear infinite,callout-shimmer 8s ease-in-out infinite;
+}
+.screen-content.is-revealed.is-exiting [data-reveal] .callout-ring{
+  animation-play-state:paused;
+}
+@keyframes callout-orbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes callout-shimmer{0%,100%{opacity:1}50%{opacity:.72}}
+html[data-state="review"] .callout-ring{animation:none!important;transform:none;opacity:1}
+@media(prefers-reduced-motion:reduce){
+  .callout-ring{animation:none!important;transform:none;opacity:1}
+}
